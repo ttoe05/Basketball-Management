@@ -15,8 +15,8 @@ A scheduler management for workout times.
 
 Tasks:
 
-[] Create log in view
-[] Create signup view
+[X] Create log in view
+[X] Create signup view
 [] Forms for registering
 [] User Home view
 [] Player performance view
