@@ -17,6 +17,7 @@ Tasks:
 
 [X] Create log in view
 [X] Create signup view
+[X] Workout submission form (coaches view)
 [] Forms for registering
 [] User Home view
 [] Player performance view
