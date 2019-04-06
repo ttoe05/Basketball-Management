@@ -7,22 +7,44 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+<style>
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+    .content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+</style>
+    <title>About the Buckets</title>
   </head>
 <body>
-  <h2>Welcome to the Sports Manaagemnet Application</h2>
-  <p>This is your one stop destination to manage your basketball athletic program.
-    Wheter it is a team or a training group, this application will keep track of your
-    workout performance as an individual as well as allow you to rank yourself amongst your
-    peers if you are a player and keep your operations organized if you are a coach/trainer.
-    </p>
-    <form>
-      Username:<br>
-      <input type="text" name="USERNAME"><br>
-      Password:<br>
-      <input type="password" name="PASSWORD">
-    </form>
-  <a href="PLACE PASS_RECOERY LINK HERE">Forgot Password</a> <a href="PLACE SIGN UP LINK HERE">Sign Up</a>
+  <video autoplay muted loop id="myVideo">
+  <source src="Videos/AllAboutTheBuckets.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+</video>
+<div class="content">
+    <h2>Welcome to the Sports Managemnet Application</h2>
+    <p>This is your one stop destination to manage your basketball athletic program.
+      Wheter it is a team or a training group, this application will keep track of your
+      workout performance as an individual as well as allow you to rank yourself amongst your
+      peers if you are a player and keep your operations organized if you are a coach/trainer.
+      </p>
+      <form>
+        Username:<br>
+        <input type="text" name="USERNAME"><br>
+        Password:<br>
+        <input type="password" name="PASSWORD">
+      </form>
+    <a href="PLACE PASS_RECOERY LINK HERE">Forgot Password</a> <a href="PLACE SIGN UP LINK HERE">Sign Up</a>
+</div>
 </body>
 </html>
